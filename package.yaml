@@ -1,0 +1,22 @@
+name: MemoTrie-instances
+version: 0.0.0.0
+license: MIT
+author: Ilya Kostyuchenko
+
+library:
+  source-dirs: src
+  dependencies:
+    - base
+    - text
+    - MemoTrie
+
+default-extensions:
+  - TypeFamilies
+  - TypeOperators
+
+ghc-options: >
+  -Weverything
+  -Wno-prepositive-qualified-module
+  -Wno-missing-safe-haskell-mode
+  -Wno-missing-import-lists
+  -Wno-unsafe
